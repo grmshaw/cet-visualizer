@@ -1,0 +1,80 @@
+/* Set the maximum width of the images to 100% of their container and center them */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 3em auto;
+}
+
+/* Center the headings */
+h1 {
+    text-align: center;
+}
+
+/* Style for the heading */
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 2em !important;
+  text-align: center;
+}
+
+/* Style for the analysis text */
+.analysis {
+  font-size: 18px;
+  line-height: 1.5;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 2em !important;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+/* Style for the labels */
+.analysis strong {
+  font-weight: bold;
+}
+
+/* Add a margin to the top and bottom of each chart */
+div {
+    margin: 20px 0;
+}
+
+/* Use a nice-looking font */
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* Style the page title */
+h1 {
+    font-size: 32px;
+}
+
+/* Style the chart titles */
+h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  margin: 20px auto;
+  width: 50%;
+}
+
+/* For mobile devices */
+@media (max-width: 767px) {
+  img {
+    max-width: 80%;
+  }
+}
+
+/* For desktop devices */
+@media (min-width: 768px) {
+  img {
+    max-width: 60%;
+  }
+}
